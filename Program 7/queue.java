@@ -75,12 +75,7 @@ public static void main(String[] args) {
                 return;
             }
         }
-
-
-    
     } 
-
- 
 catch(queueException e)
 {
     e.Error();
