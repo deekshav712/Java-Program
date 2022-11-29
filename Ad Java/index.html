@@ -6,32 +6,46 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Calculator</title>
+        <title>Student Registration</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <style>
-            *{
-                text-align: center;
-            }
-        </style>
+        * {
+            text-align: center;
+            font-family:monospace;
+    </style>
     </head>
-    <body>
-        <form action="CalcServlet">
-        Enter First Number <input type="text" name="txtN1"><br><br>
-        Enter Second Number <input type="text" name="txtN2"><br><br>
-        
-        Select an Operation :<br><br>
-        
-        Addition <input type="radio" name="opr" value="+"><br><br>
-        
-        Subtraction <input type="radio" name="opr" value="-"><br><br>
-        
-        Multiplication <input type="radio" name="opr" value="*"><br><br>
-        
-        Division <input type="radio" name="opr" value="/"><br><br>
-        
-      <input type="reset" value="RESET ">
-        <input type="submit" value="CALCULATE"><br>
+    
+    
+    <body >
+        <h1 style="font-style: bold; color:red; ">STUDENT REGISTRATION</h1>
+        <form action="">
+            <label style="color: green;">Name :</label>
+            <input type="text" placeholder="Enter your Name"><br><br>
+      
+            <label style="color: green;">Age :</label>
+            <input type="text" placeholder="Enter the Age"><br><br>
+            
+            <label style="color: green;">Gender :</label>
+            <label>Female</label>
+            <input type="radio">
+            <label>Male</label>
+            <input type="radio"><br><br>
+            
+            <label style="color: green;">Address :</label> 
+            <input type="text" placeholder="Enter the Address"><br><br>
+            
+            <label style="color: green;">Phone number :</label> 
+            <input type="text" placeholder="Enter the Phone number"><br><br>
+            
+            <label style="color: green;">Email ID :</label>
+            <input type="email" placeholder="Enter the Email"><br><br>
+            
+            <input type="submit" value="SUBMIT">
+            <button>Reset</button>
         </form>
+      
     </body>
 </html>
+ 
