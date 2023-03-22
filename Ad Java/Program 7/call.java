@@ -1,15 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package call;
 import java.applet.Applet;
 import java.awt.*;
-/**
- *
- * @author mcacnj
- */
+
 public class call extends Applet{
     Font bigFont;
     Color redColor;
@@ -32,7 +24,3 @@ public class call extends Applet{
         g.drawString("HelloWorld!", 50, 25);
     }
 }
-
-
-
-
