@@ -1,4 +1,6 @@
-<%@page contentType="text/html" pageEncoding="UTF-8" autoFlush="true" language="java" import="java.util.Date" info="Student Information" session="true" errorPage="error.jsp"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" autoFlush="true" language="java" 
+import="java.util.Date" info="Student Information" session="true" errorPage="error.jsp"%>
+
 <!DOCTYPE html>
 <html>
     <head>
