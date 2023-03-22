@@ -1,9 +1,3 @@
-<%-- 
-    Document   : callApplet
-    Created on : 23 Jan, 2023, 3:35:43 PM
-    Author     : mcacnj
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
